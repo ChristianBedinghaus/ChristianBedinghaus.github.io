@@ -1,0 +1,57 @@
+.wrapper {
+  background-color: rgb(54, 85, 160);
+  color: white;
+  width: auto;
+  height: auto;
+}
+body {
+  background-color: rgb(54, 85, 160);
+}
+footer {
+  color: white;
+  text-align: center;
+}
+nav {
+  text-indent: 30px;
+  align-content: space-evenly;
+  width: 33%;
+  background-color: #007fff;
+  height: 100%;
+}
+header {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  font-family: "Copperplate";
+  position: relative;
+  top: 20;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+table {
+  border-color: black;
+  border-style: solid;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+th {
+  border-style: solid;
+  padding: 5px;
+}
+td {
+  border-style: solid;
+  padding: 5px;
+}
+tr:nth-child(odd) {
+  background-color: #007fff;
+}
+#aboutPara {
+  display: flex;
+  align-items: right;
+}
