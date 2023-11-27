@@ -1,22 +1,29 @@
-.wrapper {
-  background-color: rgb(54, 85, 160);
-  color: white;
-  width: auto;
-  height: auto;
-}
 body {
   background-color: rgb(54, 85, 160);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  font-family: "Copperplate";
+  overflow: scroll;
+}
+main {
+  display: flex;
+  flex-basis: 100%;
 }
 footer {
   color: white;
   text-align: center;
+  width: 100%;
+  bottom: 0px;
+  position: fixed;
+  flex-basis: 100%;
 }
 nav {
-  text-indent: 30px;
-  align-content: space-evenly;
-  width: 33%;
   background-color: #007fff;
-  height: 100%;
+  flex-basis: 33%;
+  padding-left: 5px;
 }
 header {
   text-align: center;
@@ -30,7 +37,6 @@ header {
 a {
   color: white;
   text-decoration: none;
-  font-family: sans-serif;
 }
 table {
   border-color: black;
@@ -42,16 +48,20 @@ table {
 }
 th {
   border-style: solid;
+  color: white;
+  border-color: black;
   padding: 5px;
 }
 td {
   border-style: solid;
   padding: 5px;
+  color: white;
+  border-color: black;
 }
 tr:nth-child(odd) {
   background-color: #007fff;
 }
-#aboutPara {
-  display: flex;
-  align-items: right;
+.uniqueContent {
+  flex-basis: 66%;
+  padding-left: 25px;
 }
