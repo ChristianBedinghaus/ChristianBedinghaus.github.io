@@ -23,7 +23,7 @@ footer {
 nav {
   background-color: #007fff;
   flex-basis: 33%;
-  padding-left: 5px;
+  padding-left: 25px;
 }
 header {
   text-align: center;
@@ -64,4 +64,12 @@ tr:nth-child(odd) {
 .uniqueContent {
   flex-basis: 66%;
   padding-left: 25px;
+}
+.quotedText {
+  font-style: italic;
+}
+.nameOfQuote {
+  text-align: right;
+  padding-right: 25px;
+  font-size: small;
 }
