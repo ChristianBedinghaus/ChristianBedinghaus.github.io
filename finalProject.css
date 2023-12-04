@@ -16,9 +16,8 @@ footer {
   color: white;
   text-align: center;
   width: 100%;
-  bottom: 0px;
-  position: fixed;
   flex-basis: 100%;
+  padding-bottom: 5px;
 }
 nav {
   background-color: #007fff;
@@ -31,12 +30,11 @@ header {
   font-size: larger;
   font-family: "Copperplate";
   position: relative;
-  top: 20;
+  top: 20px;
   color: white;
 }
 a {
   color: white;
-  text-decoration: none;
 }
 table {
   border-color: black;
@@ -72,4 +70,14 @@ tr:nth-child(odd) {
   text-align: right;
   padding-right: 25px;
   font-size: small;
+}
+#meetingDate {
+  text-align: center;
+  font-style: italic;
+}
+h2 {
+  text-align: center;
+}
+img {
+  width: 30%;
 }
